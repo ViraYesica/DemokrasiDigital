@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./style2.css">
+	<title>Report</title>
+</head>
+<body>
+	<header class="header">
+		<a href="#" class="header-back">
+			<img src="./img/header-back.png" alt="">
+		</a>
+		<h1 class="header-title">Violation Report</h1>
+	</header>
+	<main class="container">
+		<p class="subtitle">Welcome to our reporting page! Here you can report any irregularities that occurred during the election or campaign period!</p>
+		<h1 class="title">Fill out a violation report form</h1>
+		<p class="paragraph">Your effort in filling out this violation report form is greatly appreciated. Your report assists us in investigating and addressing any misconduct, ensuring the integrity of your elections.<br>Thank you for your commitment to transparency and accountability.</p>
+		<p class="paragraph"><i class="required"></i> indicates required field</p>
+		<form class="form" action="#">
+			<div class="form-group">
+				<label for="name" class="required">Your Full Name</label>
+				<input type="text" id="name">
+			</div>
+			<div class="form-group">
+				<label for="phone" class="required">Your Phone Number</label>
+				<input type="tel" id="phone">
+			</div>
+			<div class="form-group">
+				<label for="email" class="required">Your Email Address</label>
+				<input type="email" id="email">
+			</div>
+			<div class="form-group">
+				<label for="description" class="required">Descriptions of Violation</label>
+				<textarea id="description" rows="5"></textarea>
+			</div>
+			<div class="form-group">
+				<label class="required">Visual Documentation</label>
+				<section class="action">
+					<a href="#" class="action-box">
+						<img src="./img/porfile-card.png" alt="Card">
+					</a>
+					<a href="#" class="action-box">
+						<img src="./img/profile-family.png" alt="Family">
+					</a>
+				</section>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</main>
+</body>
+</html>
